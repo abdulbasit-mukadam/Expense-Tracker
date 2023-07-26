@@ -40,9 +40,9 @@ class Expense {
 }
 
 public class ExpenseTrackerGUI extends JFrame {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/your_database_name";
-    private static final String DB_USER = "your_database_username";
-    private static final String DB_PASSWORD = "your_database_password";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/Expenses";
+    private static final String DB_USER = "abdulbasit";
+    private static final String DB_PASSWORD = "test123";
 
     private ArrayList<Expense> expenses = new ArrayList<>();
     private JList<String> expenseList;
